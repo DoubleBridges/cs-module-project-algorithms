@@ -6,8 +6,8 @@ Returns: a List of integers
     Create two pointers, one for the position being evaluated, one for the end of iteration
     Iterate through the list
     If value is 0:
-         remove from list
          append to the end
+         remove from current position
          Decrement end postion
          Do not advance the search position pointer
     Otherwise:
